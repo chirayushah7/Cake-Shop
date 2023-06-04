@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbar{
+    background-color: rgb(34, 34, 34);
+    border-radius: 2cm;
+    border-color: rgb(128, 0, 53);
+    position: relative;
+    left: 645px;
+    bottom: 5px;
+    font-weight: lighter;
+    text-align: center;
+    height: 1cm;
+}
+.Sbut{
+    font-weight: bold;
+    background: rgb(34, 34, 34);
+    border-color: rgb(19, 0, 128);
+    color: rgb(100, 100, 100)  ;
+    position: relative;
+    left: 650px;
+    bottom: 5px;
+    border-radius: 30px;
+    width: 2.5cm;
+    font-size: small;
+    height: 1cm;
+}
+.Sbut:hover
+{
+    color: rgb(255, 255, 255);
+    cursor: pointer;;
+    transition: 0.5s;
+}
+
+.category,.Login,.Register{
+    text-decoration: none;
+    color: rgb(100, 100, 100) ;
+    font-weight: bold;
+    bottom: 5px;
+    position: relative;
+    font-size: small;
+}
+.category{
+    position: relative;
+    left: 660px
+}
+.Login,.Register{
+    position: relative;
+    left: 710px
+}
+
+.category:hover
+{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.Login:hover
+{
+    color: rgb(3, 182, 3);
+    transition: 0.5s;
+}
+.Register:hover
+{
+    color: rgb(3, 182, 3);
+    transition: 0.5s;
+}
+#Heading{
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 55px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 3px rgb(83, 2, 70);
+    
+}
+.steps
+{
+    background-color: black;
+}
+
+.genre{
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    position: relative;
+    bottom: -10px;
+}
+.book{
+    margin: 25px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: thick;
+}
+
+hr{
+    height: 0.2cm;
+    background-image: linear-gradient(to left,rgb(112, 4, 58),rgb(18, 0, 100));
+    
+}
+section.back
+{
+    background-color: rgba(0, 0, 0, 0.3);      
+}
+.self-help{
+    margin-top: 0%;
+}
+
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+
+
+#wallpaper{
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(44, 0, 44));
+}

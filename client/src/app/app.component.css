@@ -1,0 +1,165 @@
+nav{
+    /*background-color: rgb(0, 0, 0);*/
+    background: linear-gradient(284deg, #000 0%, #54008f 100%);
+    background-repeat: repeat;
+    height: 50px;
+    padding-top: 0.5cm;
+    
+}
+
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+
+}/*universal selector*/
+/*Nav bar*/
+.logo{
+    font-family: fantasy;
+    background: linear-gradient(
+        to right, #9521f3, #ffffff,
+        #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    font-size: 35px;
+    position: relative;
+    bottom: 16px;
+    left: 9px;
+}
+.logo:hover
+{
+    background-image: linear-gradient(to left,  #9521f3, #ffffff,
+    #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+.searchbar{
+    background-color: rgb(34, 34, 34);
+    border-radius: 2cm;
+    border-color: rgb(128, 0, 53);
+    position: relative;
+    left: 450px;
+    bottom: 59px;
+    font-weight: lighter;
+    text-align: center;
+    height: 0.8cm;
+}
+.Dbut{ font-weight: bold;
+    background: rgb(34, 34, 34);
+    border-color: rgb(0, 128, 122);
+    color: rgb(100, 100, 100);
+    border-radius: 30px;
+    position: relative;
+    left: 935px;
+    bottom: 59px;
+    height: 0.8cm;
+    font-size: small;}
+.Sbut{
+    font-weight: bold;
+    background: rgb(34, 34, 34);
+    border-color: rgb(19, 0, 128);
+    color: rgb(100, 100, 100)  ;
+    position: relative;
+    left: 460px;
+    bottom: 59px;
+    border-radius: 30px;
+    width: 2.5cm;
+    font-size: small;
+    height: 0.8cm;
+}
+.Sbut:hover
+{
+    color: rgb(255, 255, 255);
+    cursor: pointer;;
+    transition: 0.5s;
+}
+.Dbut:hover
+{
+    color: rgb(0, 128, 122);
+    cursor: pointer;;
+    transition: 0.5s;
+}
+.category,.Login,.Register{
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+    font-weight: bold;
+    bottom: 59px;
+    font-size: 2rem;
+    align-content: right;
+}
+.category{
+    position: relative;
+    left: 610px
+}
+.Login,.Register{
+    position: relative;
+    left: 620px
+}
+
+.category:hover
+{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.Login:hover
+{
+    color: rgb(3, 182, 3);
+    transition: 0.5s;
+}
+.Register:hover
+{
+    color: rgb(3, 182, 3);
+    transition: 0.5s;
+}
+
+hr{
+    height: 0.2cm;
+    background-image: linear-gradient(to left,rgb(112, 4, 58),rgb(18, 0, 100));
+    
+}
+
+footer{
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    height: 4cm;
+    height: 1cm;
+}
+.TNC{
+    position: relative;
+    left: 3cm;
+    bottom: 1px;
+    font-size: smaller;
+}
+.PP{
+    position: relative;
+    left: 4cm;
+    bottom: 1px;
+    font-size: smaller;
+}
+.Copyright
+{
+    position: relative;
+    left: 18cm;
+    bottom: 1px;
+    font-size: smaller;
+}
+
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+#content3{
+    position: relative;
+    left: 16cm;
+    top: -0.9cm;
+}
+#content4{
+    position: relative;
+    left: 10cm;
+}
+.details{
+    font-style: italic;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-left: 3cm;
+}
